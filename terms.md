@@ -135,12 +135,12 @@ If you obtained the App from the Apple App Store, the following also applies:
 
 ## Contact
 
-Email: `support@fractalthink.com`
+Email: `support@fractalthink.com`  
 Operator: Fractalthink
 
-Postal address (registered agent):
-Northwest Registered Agent
-2501 Chatham Rd. Ste. N
+Postal address (registered agent):  
+Northwest Registered Agent  
+2501 Chatham Rd. Ste. N  
 Springfield, IL 62704
 
 ---
