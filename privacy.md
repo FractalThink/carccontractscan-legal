@@ -5,7 +5,7 @@ permalink: /privacy
 
 # Privacy Policy
 
-**Effective date:** 2026-04-28
+**Effective date:** 2026-05-08
 **App:** CarContractScan (the "App")
 **Operator:** Fractalthink ("we," "us," "our")
 
@@ -84,7 +84,8 @@ We host our backend on infrastructure we operate ourselves. We do not use third-
 ## Data retention
 
 - **Contract photos and contract text:** not retained after the analysis request finishes (typically seconds). The third-party language-model provider's retention is governed by its own policy linked above.
-- **Anonymous user identifier and purchase history:** retained as long as you have the App installed and tied to your purchase entitlements. Managed primarily by RevenueCat.
+- **Anonymous user identifier and purchase history:** retained while you have the App installed and tied to your purchase entitlements. You can remove these from our backend at any time via **Settings → Delete Account** (see "Your rights" below). Managed primarily by RevenueCat.
+- **Purchase tombstones:** when you use Delete Account, we retain the opaque Apple transaction identifier (`original_transaction_id`) of each prior purchase in a "tombstone" record so the same purchase cannot be credited twice if Apple later re-delivers it under a new install. Tombstones contain no personal information — they cannot be linked back to your name, Apple ID, or device. We retain tombstones indefinitely.
 - **Server logs (scan IDs, timing, error codes, IP addresses):** retained for the period needed to operate the service, diagnose issues, and meet our legal obligations. We do not retain logs longer than necessary for those purposes.
 
 ## Your rights
@@ -93,11 +94,12 @@ Because the App does not collect identifying information, we cannot look up "you
 
 You can:
 
+- **Delete your account-linked data from our servers** via **Settings → Delete Account** inside the App. This removes your purchase history, scan history, and RevenueCat subscriber record from our backend, and is irreversible. Unconsumed scan credits are forfeited and are not refundable through us. If you believe you are owed a refund for a recent purchase, request it from Apple through the standard App Store refund flow **before** deleting. After deletion, the only data we retain is described under "Data retention" above (purchase tombstones — opaque Apple transaction identifiers with no personal information — and standard server logs subject to our normal retention period).
 - **Stop using the App** at any time. Uninstalling removes the local consent record and all on-device data.
 - **Reset your anonymous identifier** by uninstalling and reinstalling the App. This will also reset your purchase entitlement (any unconsumed credits you bought from Apple may be restorable via "Restore Purchases" in Settings; consumed credits are not refundable).
 - **Contact us** at `support@fractalthink.com` with questions or concerns.
 
-If you are a resident of California, the EU/UK, or another jurisdiction with specific privacy rights (right to know, right to delete, right to portability, etc.), we will honor reasonable requests to the extent we have the data. In most cases we will not — we deliberately do not retain it.
+If you are a resident of California, the EU/UK, or another jurisdiction with specific privacy rights (right to know, right to delete, right to portability, etc.), we will honor reasonable requests to the extent we have the data. The Delete Account flow inside the App is the most direct way to exercise the right to delete; for everything else, contact `support@fractalthink.com`. In most cases we will not retain identifying data to begin with — we deliberately do not collect it.
 
 ## Children's privacy
 

@@ -5,7 +5,7 @@ permalink: /terms
 
 # Terms of Service
 
-**Effective date:** 2026-04-28
+**Effective date:** 2026-05-08
 **App:** CarContractScan (the "App")
 **Operator:** Fractalthink ("we," "us," "our")
 
@@ -39,6 +39,14 @@ To use the App you must:
 ## 4. Your account / identity
 
 The App does not require a user account. We assign you an anonymous identifier through our purchase-management provider (see Privacy Policy) so we can associate scan credits with your install. You are responsible for the device on which the App is installed.
+
+### 4.1 Deleting your data
+
+You may delete the data our backend has associated with your install at any time using **Settings → Delete Account** in the App. Deletion is **irreversible**: it removes your purchase history, scan history, and subscriber record from our backend, and signs you out on the device.
+
+Unconsumed scan credits are **forfeited** when you delete and are not refundable through us. If you believe you are owed a refund for a recent purchase, request it from Apple through the standard refund flow **before** deleting your data.
+
+After deletion we retain a small audit record of past purchase transaction identifiers (a "tombstone" of each `original_transaction_id`) so the same purchase cannot be credited twice if Apple later re-delivers it under a new install. This record contains no personal information; see the [Privacy Policy](/privacy) for details.
 
 ## 5. Scan credits and in-app purchases
 
@@ -96,7 +104,7 @@ You agree to indemnify and hold us harmless from any claim, loss, or expense (in
 
 ## 12. Termination
 
-You can stop using the App at any time by uninstalling it.
+You can stop using the App at any time by uninstalling it, or delete the data our backend has associated with your install via **Settings → Delete Account** (see § 4.1).
 
 We may suspend or terminate your access to our backend if you violate these Terms or if we discontinue the App. If we discontinue the App entirely, we will give reasonable notice in the App or on our website where practical. Unconsumed credits at the time of termination may be refunded through Apple at our discretion.
 
